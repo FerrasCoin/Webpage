@@ -1,0 +1,52 @@
+body {
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+.scroll-point {
+    position: relative;
+    top: -3.5rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.jumbotron.jumbotron-fluid {
+    background: url(jumbotron.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.75);
+}
+
+.tp {
+    border-bottom: 1px dotted black;
+}
+
+.tp .tptext {
+    visibility: hidden;
+    max-width: 250px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tp:hover .tptext {
+    visibility: visible;
+}
+img.pie{
+	max-width:100%;
+	height:auto;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto; 
+}
